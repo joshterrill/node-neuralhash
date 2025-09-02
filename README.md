@@ -28,6 +28,8 @@ CLI:
 ```bash
 npx neuralhash /path/to/image.png
 # /path/to/image.png: a0cca3edec8339d006068f1d
+npx neuralhash /path/to/image.png --output-only
+# a0cca3edec8339d006068f1d
 ```
 
 Hash multiple files at once:
